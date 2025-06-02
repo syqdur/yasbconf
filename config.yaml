@@ -1,10 +1,6 @@
 watch_stylesheet: true
 watch_config: true
 debug: false
-komorebi:
-  start_command: "komorebic start --whkd"
-  stop_command: "komorebic stop --whkd"
-  reload_command: "komorebic reload-configuration"
 bars:
   status-bar:
     enabled: true
@@ -26,9 +22,9 @@ bars:
       width: "100%"
       height: 36
     padding:
-      top: 8
+      top: 2
       left: 8
-      bottom: 14
+      bottom: 2
       right: 8
     widgets:
       left:
@@ -40,9 +36,7 @@ bars:
         ] 
       center: [
          "clock",
-          "komorebi_workspaces",
-          "komorebi_active_layout",
-        ]
+                  ]
       right:
         [
           "taskbar",
@@ -81,7 +75,7 @@ widgets:
       max_field_size:
         label: 100
         label_alt: 30
-      show_thumbnail: true
+      show_thumbnail: false
       controls_only: false
       controls_left: true
       hide_empty: true
@@ -253,7 +247,8 @@ widgets:
         - {icon: "\uf422", launch: "search"}
         - {icon: "\udb80\ude39", launch: "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"}
         - {icon: "\uf1ff", launch: "C:\\Users\\Mauro\\AppData\\Local\\Discord\\Update.exe --processStart Discord.exe"}
-        - {icon: "\uf1b6", launch: "C:\\Program Files (x86)\\Steam\\steam.exe"}
-        - {icon: "\u2744 ", launch: "C:\\Program Files (x86)\\Battle.net\\Battle.net Launcher.exe"}
+        - {icon: "\uf1b6", launch: "C:\\Users\\Mauro\\AppData\\Local\\Playnite\\Playnite.DesktopApp.exe"}
+        - {icon: "\u2744", launch: "C:\\Program Files (x86)\\Battle.net\\Battle.net Launcher.exe"}
+        - {icon: "\uf1bc", launch: "C:\\Users\\Mauro\\AppData\\Roaming\\Spotify\\Spotify.exe"}
         
 
